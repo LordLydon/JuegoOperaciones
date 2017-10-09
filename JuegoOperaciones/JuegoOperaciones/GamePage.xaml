@@ -9,7 +9,7 @@
             <Label Text="{Binding Op2}"></Label>
         </StackLayout>
         <Label Text="Ingresa la respuesta!"></Label>
-        <Entry x:Name="AnswerEntry" Placeholder="Ingresa tu respuesta..."></Entry>
+        <Entry x:Name="AnswerEntry" Placeholder="Ingresa tu respuesta..." Keyboard="Numeric"></Entry>
         
         <Button Text="{Binding NextBtnText}" Clicked="Next"></Button>
     </StackLayout>
