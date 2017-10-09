@@ -13,7 +13,7 @@ namespace JuegoOperaciones
 		{
 			InitializeComponent();
 
-			MainPage = new JuegoOperaciones.MainPage();
+			MainPage = new NavigationPage(new JuegoOperaciones.MainPage());
 		}
 
 		protected override void OnStart ()
